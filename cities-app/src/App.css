@@ -1,0 +1,54 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #eef1f4;
+}
+
+/* Header Section */
+h1 {
+  text-align: center;
+  background-color: #333840;
+  color: rgb(209, 10, 10);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+/* Content Area */
+.content-container {
+  width: 60%;
+  margin: auto;
+  background: rgb(179, 13, 13);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #590cb6;
+  border-radius: 5px;
+
